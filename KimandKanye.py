@@ -32,8 +32,8 @@ for status in statuses:
 	if (status.lang == 'en'): 
     text += status.text.encode('utf-8')
    
-pi_username = 'chris.ferrer03@gmail.com'
-pi_password = 'IBMcount317'
+pi_username = ''
+pi_password = ''
 
 	personality_insights = PersonalityInsights(username=pi_username, password=pi_password)
 
